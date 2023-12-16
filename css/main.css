@@ -1,0 +1,100 @@
+.banner__section {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding-bottom: 30px;
+  background: #FEFAF5;
+}
+
+.banner__content {
+  padding-left: 70px;
+  padding-top: 50px;
+  text-align: left;
+
+}
+
+.banner__title {
+  color: #335576;
+  font-size: 1.9rem;
+
+}
+
+.banner__text {
+  color: #335576;
+  font-size: .83rem;
+  padding-top: 10px;
+
+
+}
+
+.banner__button {
+
+background-color: #DB7A4E;
+text-decoration: none;
+color: white;
+border-radius: 20px;
+border: none;
+display: inline-block;
+padding: 5px 15px;
+margin-top: 10px;
+
+}
+
+.banner__image-container {
+  text-align: right;
+  padding-right: 12%;
+  padding-top: 5%;
+}
+
+.banner__image {
+height: auto;
+width: 60%;
+
+}
+
+.recommendations {
+text-align: center;
+padding-bottom: 40px; 
+}
+
+
+.recommendations__title {
+color: #335576;
+margin-bottom: 40px; 
+margin-left: 40px;
+text-align: left;
+}
+
+.recommendations__container {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.recommendations__item {
+display: block; 
+position: absolute; 
+right: 10px; 
+bottom: 10px; 
+color: #fff; 
+/* background-color: rgba(0, 0, 0, 0.5);  */
+padding: 5px 10px; 
+border-radius: 5px; 
+}
+
+.recommendations__link {
+position: relative; 
+/* display: inline-block; 
+width: calc(33.333% - 13.333px); 
+margin: 0;  */
+}
+
+.recommendations__link img {
+max-width:170px ; 
+height: auto; 
+border-radius: 5px; 
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2);
+border: 1px solid rgba(0, 0, 0, 0.2); 
+}
