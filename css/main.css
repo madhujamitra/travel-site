@@ -3,13 +3,18 @@
   justify-content: center;
   text-align: center;
   padding-bottom: 30px;
+  padding-top:30px;
   background: #FEFAF5;
+  flex-wrap:wrap;
 }
 
 .banner__content {
   padding-left: 70px;
-  padding-top: 50px;
-  text-align: left;
+    padding-top: 50px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    margin-right: 60px;
 
 }
 
@@ -23,6 +28,7 @@
   color: #335576;
   font-size: .83rem;
   padding-top: 10px;
+  margin-top:30px;
 
 
 }
@@ -34,27 +40,29 @@ text-decoration: none;
 color: white;
 border-radius: 20px;
 border: none;
-display: inline-block;
 padding: 5px 15px;
-margin-top: 10px;
+    margin-top: 30px;
+    width: 130px;
+
 
 }
 
 .banner__image-container {
   text-align: right;
-  padding-right: 12%;
-  padding-top: 5%;
+  padding-right: 70px;
+  padding-top: 20px;
 }
 
 .banner__image {
 height: auto;
-width: 60%;
+width: 22rem;
+min-width: 10%
 
 }
 
 .recommendations {
 text-align: center;
-padding-bottom: 40px; 
+padding: 60px 16px 60px;
 }
 
 
@@ -90,6 +98,11 @@ position: relative;
 width: calc(33.333% - 13.333px); 
 margin: 0;  */
 }
+.recommendations__link:hover {
+  opacity: .5;
+  transition: all 0.1s linear;
+  }
+  
 
 .recommendations__link img {
 max-width:170px ; 
