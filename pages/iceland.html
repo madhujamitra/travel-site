@@ -1,27 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/global.css">
     <link rel="stylesheet" href="../css/destinations.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Document</title>
 </head>
+
 <body>
     <header>
         <nav class="navbar">
-                   <a href="../index.html"class="navbar__heading__title">
-                    <h3 class="navbar__heading">Travel Site</h3>
-                   </a>
-                   <ul class="navbar__list">
-                     <li class="navbar__item"><a href="../index.html" class="navbar__link">Home</a></li>
-                     <li class="navbar__item"><a href="./hawaii.html" class="navbar__link">Hawaii</a></li>
-                     <li class="navbar__item navbar__item__active"><a href="./iceland.html" class="navbar__link">Iceland</a></li>
-                     <li class="navbar__item"><a href="./greece.html" class="navbar__link">Greece</a></li>
-                   </ul>
-                 </nav>
-       
-           </header>
+            <a href="../index.html" class="navbar__heading__title">
+                <h3 class="navbar__heading">Travel Site</h3>
+            </a>
+            <!-- Hamburger menu icon for mobile view -->
+            <label for="nav-toggle" class="navbar__hamberger__nemu">
+                <i class="fa fa-bars"></i>
+            </label>
+            <!-- Hidden checkbox to manage the toggle state -->
+            <input type="checkbox" id="nav-toggle" class="nav-toggle">
+            <ul class="navbar__list">
+                <li class="navbar__item"><a href="../index.html" class="navbar__link">Home</a></li>
+                <li class="navbar__item"><a href="./hawaii.html" class="navbar__link">Hawaii</a></li>
+                <li class="navbar__item navbar__item__active"><a href="./iceland.html" class="navbar__link">Iceland</a>
+                </li>
+                <li class="navbar__item"><a href="./greece.html" class="navbar__link">Greece</a></li>
+            </ul>
+        </nav>
+
+    </header>
     <main>
         <section class="section section__iceland">
             <h1 class="section__title">Iceland</h1>
@@ -54,48 +64,52 @@
                     </ul>
                 </div>
             </div>
-        
+
         </section>
 
     </main>
     <footer class="footer">
         <div class="footer__block">
-        <section class="footer__section">
-          <h4 class="footer__title">Contact</h4>
-          <div>
-            <div class="footer__title__highlight">EMAIL</div>
-            <div class="footer__text">info@travelsite.com</div>
-        </div>
-        </section>
-        <section class="footer__section">
+            <section class="footer__section">
+                <h4 class="footer__title">Contact</h4>
+                <div>
+                    <div class="footer__title__highlight">EMAIL</div>
+                    <div class="footer__text">info@travelsite.com</div>
+                </div>
+            </section>
+            <section class="footer__section">
 
-            <h4 class="footer__title">Hours</h4>
-            <div class="footer__section-hour">
-                <div>
-                    <div class="footer__title__highlight">MONDAY-FRIDAY</div>
-                    <div class="footer__text">9:00 AM - 5:00 PM</div>
+                <h4 class="footer__title">Hours</h4>
+                <div class="footer__section-hour">
+                    <div>
+                        <div class="footer__title__highlight">MONDAY-FRIDAY</div>
+                        <div class="footer__text">9:00 AM - 5:00 PM</div>
+                    </div>
+                    <div>
+                        <div class="footer__title__highlight">SATURDAY</div>
+                        <div class="footer__text">9:00 AM - 4:00 PM</div>
+                    </div>
+                    <div>
+                        <div class="footer__title__highlight">SUNDAY</div>
+                        <div class="footer__text">Closed</div>
+                    </div>
                 </div>
-                <div>
-                    <div class="footer__title__highlight">SATURDAY</div>
-                    <div class="footer__text">9:00 AM - 4:00 PM</div>
-                </div>
-                <div>
-                    <div class="footer__title__highlight">SUNDAY</div>
-                    <div class="footer__text">Closed</div>
-                </div>
-            </div>
-        </section>
+            </section>
 
-        <section class="footer__section footer__section-social">
+            <section class="footer__section footer__section-social">
                 <h4 class="footer__title">Social</h4>
                 <div class="footer__section footer__social">
-                    <a href="instagram.com" class="footer__link"><img src="../assets/Icons/icon-instagram.png" alt="instagram"></a>
-                    <a href="facebook.com" class="footer__link"><img src="../assets/Icons/icon-facebook.png" alt="facebook"></a>
-                    <a href="twitter.com" class="footer__link"><img src="../assets/Icons/icon-twitter.png" alt="twitter"></a>
+                    <a href="instagram.com" class="footer__link"><img src="../assets/Icons/icon-instagram.png"
+                            alt="instagram"></a>
+                    <a href="facebook.com" class="footer__link"><img src="../assets/Icons/icon-facebook.png"
+                            alt="facebook"></a>
+                    <a href="twitter.com" class="footer__link"><img src="../assets/Icons/icon-twitter.png"
+                            alt="twitter"></a>
                 </div>
-        </section>
-    </div>
-      </footer>
-    
+            </section>
+        </div>
+    </footer>
+
 </body>
+
 </html>
